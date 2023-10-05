@@ -11,7 +11,7 @@ import SwiftUI
 struct AlarmClockAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AlarmSetupView()
         }
     }
 }

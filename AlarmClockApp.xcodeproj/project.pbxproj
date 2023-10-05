@@ -11,6 +11,16 @@
 		D19F34C82ACEAC6E00B1A4F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F34C72ACEAC6E00B1A4F2 /* ContentView.swift */; };
 		D19F34CA2ACEAC6F00B1A4F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19F34C92ACEAC6F00B1A4F2 /* Assets.xcassets */; };
 		D19F34CD2ACEAC6F00B1A4F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19F34CC2ACEAC6F00B1A4F2 /* Preview Assets.xcassets */; };
+		D19F34D42ACEBA5B00B1A4F2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F34D32ACEBA5B00B1A4F2 /* HomeView.swift */; };
+		D19F34D62ACEBA6400B1A4F2 /* AlarmSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F34D52ACEBA6400B1A4F2 /* AlarmSetupView.swift */; };
+		D19F34D82ACEBA7000B1A4F2 /* AlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F34D72ACEBA7000B1A4F2 /* AlarmCell.swift */; };
+		D19F34DA2ACEC55500B1A4F2 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F34D92ACEC55500B1A4F2 /* CustomToggle.swift */; };
+		D19F34DC2ACED3ED00B1A4F2 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F34DB2ACED3ED00B1A4F2 /* Header.swift */; };
+		D19F34DE2ACED6AC00B1A4F2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F34DD2ACED6AC00B1A4F2 /* HomeViewModel.swift */; };
+		D19F34E02ACEEFDA00B1A4F2 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F34DF2ACEEFDA00B1A4F2 /* Clock.swift */; };
+		D19F34E72ACF071200B1A4F2 /* AlarmSetupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F34E62ACF071200B1A4F2 /* AlarmSetupViewModel.swift */; };
+		D19F34EB2ACF079F00B1A4F2 /* CustomCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F34EA2ACF079F00B1A4F2 /* CustomCircle.swift */; };
+		D1C74CE92ACF36E70055F0BF /* SleepInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C74CE82ACF36E70055F0BF /* SleepInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		D19F34C72ACEAC6E00B1A4F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D19F34C92ACEAC6F00B1A4F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D19F34CC2ACEAC6F00B1A4F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D19F34D32ACEBA5B00B1A4F2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D19F34D52ACEBA6400B1A4F2 /* AlarmSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSetupView.swift; sourceTree = "<group>"; };
+		D19F34D72ACEBA7000B1A4F2 /* AlarmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCell.swift; sourceTree = "<group>"; };
+		D19F34D92ACEC55500B1A4F2 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		D19F34DB2ACED3ED00B1A4F2 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		D19F34DD2ACED6AC00B1A4F2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D19F34DF2ACEEFDA00B1A4F2 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		D19F34E62ACF071200B1A4F2 /* AlarmSetupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSetupViewModel.swift; sourceTree = "<group>"; };
+		D19F34EA2ACF079F00B1A4F2 /* CustomCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircle.swift; sourceTree = "<group>"; };
+		D1C74CE82ACF36E70055F0BF /* SleepInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,9 @@
 		D19F34C42ACEAC6E00B1A4F2 /* AlarmClockApp */ = {
 			isa = PBXGroup;
 			children = (
+				D19F34E22ACF06AC00B1A4F2 /* Model */,
+				D19F34E32ACF06B800B1A4F2 /* View */,
+				D19F34E12ACF06A600B1A4F2 /* ViewModel */,
 				D19F34C52ACEAC6E00B1A4F2 /* AlarmClockAppApp.swift */,
 				D19F34C72ACEAC6E00B1A4F2 /* ContentView.swift */,
 				D19F34C92ACEAC6F00B1A4F2 /* Assets.xcassets */,
@@ -65,6 +88,53 @@
 				D19F34CC2ACEAC6F00B1A4F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D19F34E12ACF06A600B1A4F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D19F34DD2ACED6AC00B1A4F2 /* HomeViewModel.swift */,
+				D19F34E62ACF071200B1A4F2 /* AlarmSetupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D19F34E22ACF06AC00B1A4F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D19F34E32ACF06B800B1A4F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D19F34E52ACF06C600B1A4F2 /* HomeView */,
+				D19F34E42ACF06BE00B1A4F2 /* AlarmView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D19F34E42ACF06BE00B1A4F2 /* AlarmView */ = {
+			isa = PBXGroup;
+			children = (
+				D19F34D52ACEBA6400B1A4F2 /* AlarmSetupView.swift */,
+				D19F34DF2ACEEFDA00B1A4F2 /* Clock.swift */,
+				D19F34EA2ACF079F00B1A4F2 /* CustomCircle.swift */,
+				D1C74CE82ACF36E70055F0BF /* SleepInfo.swift */,
+			);
+			path = AlarmView;
+			sourceTree = "<group>";
+		};
+		D19F34E52ACF06C600B1A4F2 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				D19F34D32ACEBA5B00B1A4F2 /* HomeView.swift */,
+				D19F34DB2ACED3ED00B1A4F2 /* Header.swift */,
+				D19F34D92ACEC55500B1A4F2 /* CustomToggle.swift */,
+				D19F34D72ACEBA7000B1A4F2 /* AlarmCell.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +207,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19F34E72ACF071200B1A4F2 /* AlarmSetupViewModel.swift in Sources */,
+				D19F34DA2ACEC55500B1A4F2 /* CustomToggle.swift in Sources */,
+				D19F34D82ACEBA7000B1A4F2 /* AlarmCell.swift in Sources */,
+				D19F34D42ACEBA5B00B1A4F2 /* HomeView.swift in Sources */,
+				D19F34E02ACEEFDA00B1A4F2 /* Clock.swift in Sources */,
+				D19F34DE2ACED6AC00B1A4F2 /* HomeViewModel.swift in Sources */,
+				D19F34DC2ACED3ED00B1A4F2 /* Header.swift in Sources */,
 				D19F34C82ACEAC6E00B1A4F2 /* ContentView.swift in Sources */,
 				D19F34C62ACEAC6E00B1A4F2 /* AlarmClockAppApp.swift in Sources */,
+				D19F34D62ACEBA6400B1A4F2 /* AlarmSetupView.swift in Sources */,
+				D19F34EB2ACF079F00B1A4F2 /* CustomCircle.swift in Sources */,
+				D1C74CE92ACF36E70055F0BF /* SleepInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
